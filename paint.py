@@ -7,7 +7,7 @@ from PIL import Image
 import tkinter as tk
 from tkinter import filedialog
 
-API_URL = "https://api-inference.huggingface.co/models/CompVis/stable-diffusion-v1-5"
+API_URL = "https://api-inference.huggingface.co/models/CompVis/stable-diffusion-v1-4"
 
 
 def generate_image(prompt: str, inpaint_image_path: str = None, mask_image_path: str = None, count: int = 1) -> list:
